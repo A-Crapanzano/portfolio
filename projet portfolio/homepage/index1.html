@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/homepage/homepage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+ 
+  <header>
+    <div class="header-content">
+      <h1>CRAPANZANO Alexandre</h1>
+
+      <div class="navbar">
+        <nav>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="/homepage/index1.html">Accueil</a></li>
+            <li><a href="/skillspage/skills.html">Skills</a></li>
+            <li><a href="/experience/experience.html">Expérience</a></li>
+            <li><a href="/Association/association.html">Association</a></li>
+            <li><a href="/softskills/softskills.html">Softskills</a></li>
+            <li><a href="/Mes passions/passion.html">Passions</a></li>
+            <li><a href="/contact-cv/contact.html">Contact</a></li>
+          </ul>
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="hero-image" id="accueil">
+    <div class="hero-section">
+      
+    </div>
+  </div>
+
+ 
+  <section class="card-content">
+    <img src="/images/DSC_0059.JPG" alt="photo perso" class="card-img" />
+    <div class="card-text">
+      <h2>Avant propos</h2>
+      <p>Infirmier diplômé depuis 2017, j'ai toujours été attiré par les nouvelles technologies et l'informatique en général. Dès l'adolescence, j'ai appris à monter mes propres PC pour jouer à mes jeux vidéo favoris.</p>
+      <p>En quête de renouveau professionnel, j'ai décidé de me reconvertir dans la tech avec la volonté d'allier mes compétences humaines à des savoir-faire technologiques.</p>
+      <p>J'ai intégré depuis septembre 2025 le Pré-Master of Science d'Epitech. J’ai un intérêt particulier pour l'IA et la Data.</p>
+    </div>
+  </section>
+
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

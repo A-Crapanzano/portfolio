@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/skillspage/skills.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+ 
+  <header>
+    <div class="header-content">
+      <h1>CRAPANZANO Alexandre</h1>
+
+      <div class="navbar">
+        <nav>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="/homepage/index1.html">Accueil</a></li>
+            <li><a href="/skillspage/skills.html">Skills</a></li>
+            <li><a href="/experience/experience.html">Expérience</a></li>
+            <li><a href="/Association/association.html">Association</a></li>
+            <li><a href="/softskills/softskills.html">Softskills</a></li>
+            <li><a href="/Mes passions/passion.html">Passions</a></li>
+            <li><a href="/contact-cv/contact.html">Contact</a></li>
+          </ul>
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="background-image" id="skills">
+  
+
+
+    <div class="hero-section">
+      <h2>Mes compétences</h2>
+      <p class="pclass">Voici un aperçu de mes compétences actuelles en développement web et programmation.</p>
+      
+    </div>
+  
+  <div class="wrapper">
+ 
+  <section class="card-content">
+    <img src="/images/logo-2582748_1920.png" alt="html" class="card-img" />
+    <div class="card-text">
+      
+      <p>L'html 5 est un langage basique du developpement web mais est un fondammental à maitriser.</p> 
+      <p>C'est un langage que j'ai pu apprendre pendant mon autoformation mais qu'Epitech à bien consolider grâce à sa fameuse piscine Web.</p>
+    
+    <p>Ce portfolio est un projet d'ailleurs permettant de concrétiser mon apprentissage </p>
+    </div>
+</section>
+
+ <section class="card-content">
+    <img src="/images/css3-1841590_640.png" alt="Css3" class="card-img" />
+    <div class="card-text">
+      <p>Le CSS3 est un langage de mise en forme des pages web.</p>
+      <p>C'est un langage que j'ai pu apprendre pendant mon autoformation mais qu'Epitech à bien consolider grâce à sa fameuse piscine Web.  </p>
+     
+    </section>
+    
+
+     <section class="card-content">
+    <img src="/images/python.png" alt="Python" class="card-img" />
+    <div class="card-text">
+      <p>Langage de la première piscine que j'ai réalisé à Epitech, très interessant avec une approche de l'algorithmie.</p>
+      <p>Au programme: variable, paramètre, fonction, boucles et récursives.</p> 
+      <p> A la fin de ces deux semaines intensives en python j'ai pu réaliser un jeu "Hangman" fonctionnel en python. </p>
+     
+      </div>
+    </section>
+
+         <section class="card-content">
+    <img src="/images/javascript-8543231_1920.png" alt="Javascript" class="card-img" />
+    <div class="card-text">
+      <p>Uniquement des notions acquises pour le moment grâce à des tutos vidéos youtube.</p> 
+      <p>Pas encore de mise en pratique concrète me permettant réellement de manipuler le langage et ainsi de le maitriser. </p>
+     </div>
+    </section>
+
+
+    </div>
+  
+    </div>
+   
+    
+  
+  
+
+  
+
+
+
+
+
+
+
+    </div>
+    
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
