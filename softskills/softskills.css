@@ -71,6 +71,7 @@ header {
   border-radius: 2px;
 }
 
+
 .list-class {
   margin-top: 15px;
   list-style-type: none;
@@ -79,11 +80,16 @@ header {
 
 }
 
+li{
+  list-style-type: none;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
   padding: 20px;
+  align-items: stretch;
 }
 
 section.card-content {
@@ -97,6 +103,7 @@ section.card-content {
   flex-direction: column;
   align-items: center;   
   text-align: left;      
+  margin-bottom: 20px;
 }
 
 
@@ -114,6 +121,9 @@ section.card-content {
   text-decoration: underline;
 }
 
+.card-content {
+  height: 100%;
+}
 
 .card-img {
   display: block;
@@ -177,11 +187,11 @@ section.card-content h2 {
     display: flex;
   }
 
-  .hamburger {
+ .hamburger {
     display: flex;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 2001; 
   }
 }
-
-
-
-
